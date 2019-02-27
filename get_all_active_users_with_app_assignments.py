@@ -5,8 +5,8 @@ import sys
 import csv
 import time
 
-orgName = ""
-apiKey = ""
+orgName = "cision.okta"
+apiKey = "00b5u6_04e82_opLSlsyiPCn5s_1xi6Iml3bkDHzlu"
 
 api_token = "SSWS "+ apiKey
 headers = {'Accept':'application/json', 'Content-Type':'application/json', 'Authorization':api_token}
